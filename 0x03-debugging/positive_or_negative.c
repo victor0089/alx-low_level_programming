@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * positive_or_negative - Determines if a number is positive , negative or zero.
+ * positive_or_negative - Determines if a number is positive,negative or zero.
+ * i - the test number 
  * Return: Always 0 (Success)
  */
 
@@ -20,4 +21,3 @@ if (i > 0)
 		printf("%d is negative\n", i);
 	}
 }
-
