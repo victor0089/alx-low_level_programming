@@ -2,13 +2,13 @@
 
 /**
  * positive_or_negative - Determines if a number is positive,negative or zero.
- * i - the test number 
+ * @i: the test number to check
  * Return: Always 0 (Success)
  */
 
 void positive_or_negative(int i)
 {
-if (i > 0)
+	if (i > 0)
 	{
 		printf("%d is positive\n", i);
 	}
