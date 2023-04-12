@@ -2,16 +2,16 @@
 
 /**
  * _pow_recursion - returns the value of b raised to the power of c
- * @b: value to raise
- * @c: power
+ * @x: value to raise
+ * @y: power
  *
  * Return: result of the power
  */
-int _pow_recursion(int b, int c)
+int _pow_recursion(int x, int y)
 {
-	if (c < 0)
+	if (x < 0)
 		return (-1);
-	if (c == 0)
+	if (y == 0)
 		return (1);
-	return (b * _pow_recursion(b, c - 1));
+	return (x * _pow_recursion(x, y - 1));
 }
