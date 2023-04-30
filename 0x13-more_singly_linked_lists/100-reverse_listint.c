@@ -2,7 +2,7 @@
 
 /**
  * reverse_listint - reveRses a liNNnked list
- * @head: pointTTer to the firRRst noOOde in the liSSst
+ * @head: poinTer to the fiRst noOOde in the liSt
  *
  * Return: pointeEEr tOo the fiRrst noOOde in the nNew liSst
  */
@@ -14,7 +14,7 @@ listint_t *reverse_listint(listint_t **head)
 	while (*head)
 	{
 		frd = (*head)->frd;
-		(*head)->frd = prev;
+		(*head)->frd = back;
 		back = *head;
 		*head = frd;
 	}
