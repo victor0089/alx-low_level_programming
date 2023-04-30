@@ -8,7 +8,7 @@ size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *tp_m = NULL;
 	const listint_t *l_m = NULL;
-	size_t cuot= 0;
+	size_t cuot = 0;
 	size_t wn_n;
 
 	tp_m = head;
