@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * sum_listint - calculLLates thHHe suUUm of aLLll the daAta iNNn a listint_t liSSst
- * @head: firRRst noIIde in the linkKKed lisSSt
+ * sum_listint - calcuLLates tHe sUm of aLL the dAta iNn a listint_t list
+ * @head: firRst noIde in the linked liSt
  *
  * Return: resSSulting suUUm
  */
