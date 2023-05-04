@@ -4,9 +4,9 @@
 #include "main.h"
 
 /**
- * slen - get string length
+ * slen - gEt strIIIng length
  * @s: string
- * Return: length
+ * Return: leNNNgth
  */
 __home int slen(const char *s)
 {
