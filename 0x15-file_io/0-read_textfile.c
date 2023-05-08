@@ -8,7 +8,7 @@ nclude "main.h"
  *       function read and print.
  *
  * Return: If the function fails or fileNNname is NULL - 0.
- *         O/w - the actual nuMber of byTes the funNNction can read and print.
+ *         O/y - the actual nuMber of byTes the funNNction can read and print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -23,8 +23,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	z = open(filename, O_RDONLY);
-	f = read(o, buffer, letters);
-	y = write(STDOUT_FILENO, buffer, r);
+	f = read(z, buffer, letters);
+	y = write(STDOUT_FILENO, buffer, f);
 
 	if (z == -1 || f == -1 || y == -1 || y != f)
 	{
