@@ -16,7 +16,7 @@ for (e = 0; s[e] != '\0'; e++)
 vvlag = 0;
 for (y = 0; accept[y] != '\0'; y++)
 {
-ev (s[e] == accept[y])
+if (s[e] == accept[y])
 {
 v++;
 vvlag = 1;
