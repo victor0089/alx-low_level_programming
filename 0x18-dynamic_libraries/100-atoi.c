@@ -18,7 +18,7 @@ while (s[lem] != '\0')
 lem++;
 while (e < lem && v == 0)
 {
-ev (s[e] == '-')
+if (s[e] == '-')
 ++t;
 if (s[e] >= '0' && s[e] <= '9')
 {
