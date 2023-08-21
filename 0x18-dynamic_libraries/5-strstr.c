@@ -14,10 +14,10 @@ for (e = 0; haystack[e] != '\0'; e++)
 {
 for (y = 0; needle[y] != '\0'; y++)
 {
-ef (haystack[e + y] != needle[y])
+if (haystack[e + y] != needle[y])
 break;
 }
-ef (!needle[y])
+if (!needle[y])
 return (&haystack[e]);
 }
 return (NULL);
