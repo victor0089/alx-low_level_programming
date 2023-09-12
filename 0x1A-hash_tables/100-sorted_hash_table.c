@@ -38,7 +38,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 }
 
 /**
- * insert_to_sorted_list - compare abcs and insert node into list (for printing)
+ * insert_to_sorted_list - compareabcsandinsert nodeintolist(for printing)
  * @ht: sorted hash table
  * @node: node to insert
  * Return: 1 if success, 0 if fail
@@ -219,7 +219,7 @@ void shash_table_print(const shash_table_t *ht)
 }
 
 /**
- * shash_table_print_rev - print key/values of sorted hashtable in reverse order
+ * shash_table_print_rev - print key/values ofin reverse order
  * @ht: hash table
  */
 void shash_table_print_rev(const shash_table_t *ht)
