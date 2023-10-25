@@ -2,4 +2,4 @@ CC = gcc
 SRC = main.c school.c
 OBJ = main.o school.o
 all: $(OBJ)
-	$(CC) $(SRC) $(OBJ) -o school
+	$(CC)  $(OBJ) -o school
