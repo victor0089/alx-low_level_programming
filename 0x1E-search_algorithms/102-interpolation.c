@@ -1,7 +1,6 @@
 #include "search_algos.h"
-
 /**
- * interpolation_search - searchesforavalue in anarray 
+ * interpolation_search - searchesforavalue in anarray
  * integers usingthe Interpolationsearch algorithm
  * @array: inputarray
  * @size: size of thearray
@@ -12,6 +11,7 @@ int interpolation_search(int *array, size_t size, int value)
 {
 	size_t pos, low, high;
 	double f;
+	
 	if (array == NULL)
 		return (-1);
 	low = 0;
