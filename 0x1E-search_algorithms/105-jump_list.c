@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * jump_list - searchesfor a valuein anarray 
+ * jump_list - searchesfor a valuein anarray
  * integers using the Jumpsearchalgorithm
  * @list: input list
  * @size: sizeof thearray
@@ -13,6 +13,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 {
 	size_t index, k, m;
 	listint_t *prev;
+
 	if (list == NULL || size == 0)
 		return (NULL);
 
