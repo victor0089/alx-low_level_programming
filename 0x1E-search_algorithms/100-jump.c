@@ -1,13 +1,13 @@
 #include "search_algos.h"
 #include <math.h>
 /**
- * jump_search - searches for avalue inan array
- * integers using the Jumpsearch algorithm
- * @array: inputarray
- * @size: size ofthe array
- * @value: value tosearch in
- * Return: index of thenumber
- */
+* jump_search - searches for avalue inan array
+* integers using the Jumpsearch algorithm
+* @array: inputarray
+* @size: size ofthe array
+* @value: value tosearch in
+* Return: index of thenumber
+*/
 int jump_search(int *array, size_t size, int value)
 {
 int index, m, k, prev;
