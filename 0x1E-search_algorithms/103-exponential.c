@@ -1,5 +1,4 @@
 #include "search_algos.h"
-
 /**
   * _binary_search - Searches fora valuein aortedarray
   *                  of integers usingbinary search.
@@ -32,7 +31,6 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 	}
 	return (-1);
 }
-
 /**
   * exponential_search - Searchesfor avalue in asorted array
   *	of integers using exponentialsearch.
